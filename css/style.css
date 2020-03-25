@@ -12,7 +12,7 @@ li{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	font-family: fantasy;
+	font-family: sans-serif;
 	
 
 
@@ -52,7 +52,7 @@ header{
 	line-height: 36px;
 
 	color: #1b1b1b;
-	background-color: #ffc222;
+	background-color: #6666ff;
 	padding: 5px 20px 4px 50px;
 	font-size: 16px;
 	position: relative;
@@ -62,7 +62,7 @@ header{
 	font-family: 'icomoon';
 	position: absolute;
 	left: 22px;
-	color: #1b1b1b;
+	color: #6666ff;
 }
 
 .header__phone,
@@ -82,7 +82,7 @@ header{
 	font-family: 'icomoon';
 	position: absolute;
 	left: 0;
-	color: #ffc222;
+	color: #6666ff;
 }
 .header__email{
 	padding-left: 24px;
@@ -92,7 +92,7 @@ header{
 	font-family: 'icomoon';
 	position: absolute;
 	left: 0;
-	color: #ffc222;
+	color: #6666ff;
 }
 
 .header__content{
@@ -107,7 +107,7 @@ header{
 }
 
 .menu .active{
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #6666ff;
 }
 .menu a{
 	color: #323232;
@@ -118,7 +118,7 @@ header{
 	transition: 0.3s;
 }
 .menu a:hover{
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #6666ff;
 	transition: 0.3s;
 }
 .menu li+li{
@@ -144,7 +144,6 @@ header{
 }
 /*#particles-js{
 	background-size: cover;
-
 	min-height: 500px;
 	position: absolute;
 	position: relative;
@@ -187,7 +186,7 @@ header{
 	font-weight: 500;
 	font-family: 'Roboto', sans-serif;
 	padding: 8px 30px 8px 24px;
-	border: 1px solid #ffc222;
+	border: 1px solid #6666ff;
 	border-right-width: 20px;
 	position: relative;
 	z-index: 2;
@@ -211,10 +210,10 @@ header{
 	z-index: 3;
 	width: 40px;
 	height: 40px;
-	border: 1px solid #fff;
+	border: 1px solid #6666ff;
 	outline: none;
 	cursor: pointer;
-	background-color: #ffc222;
+	background-color: #6666ff;
 }
 
 .slick-btn.slick-disabled{
@@ -270,7 +269,7 @@ header{
 	position: absolute;
 	width: 100px;
 	height: 2px;
-	background-color: #ffc222;
+	background-color: #6666ff;
 	left: 0;
 	top: 11px;
 }
@@ -295,7 +294,7 @@ header{
 	line-height: 24px;
 	letter-spacing: 0.25px;
 	padding: 5px 38px;
-	border: 3px solid #e6e6e6;
+	border: 3px solid #6666ff;
 }
 .services__items{
 	display: flex;
@@ -338,13 +337,13 @@ header{
 .services__item-link{
 	color: #050505;
 	font-family: 'Roboto', sans-serif;
-	border-bottom: 1px solid #050505;
+	border-bottom: 1px solid #6666ff;
 	margin-right: 60px;
 }
 
 
 .about{
-	background-image: url(../images/gym3.jpg);
+	background-image: url(../images/c.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
@@ -380,7 +379,7 @@ header{
 }
 .form__inner{
 	padding-bottom: 80px;
-	/*background-image: url(../images/fone4.jpg);*/
+	background-image: url(../images/fone4.jpg);			
 	min-height: 460px;
 	background-repeat: no-repeat;
 	background-position:  right ;
@@ -418,18 +417,18 @@ header{
 	margin-bottom: 8px;
 	outline: none;
 	height: 40px;
-	border: 1px solid #e6e6e6;
+	border: 1px solid #6666ff;
 	padding: 0px 10px;
 }
 .form__box-inner select{
 	outline: none;
 	height: 40px;
-	border: 1px solid #e6e6e6;
+	border: 1px solid #6666ff;
 	padding-left: 17px;
 }
 .form__box-inner textarea{
 	outline: none;
-	border: 1px solid #e6e6e6;
+	border: 1px solid #6666ff;
 	padding: 10px;
 	height: 208px;
 	resize: none;
@@ -442,7 +441,7 @@ header{
 }
 .advantages{
 	padding: 55px 0px 40px;
-	background-image: url(../images/wall.jpg);
+	background-image: url(../images/gym3.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 285px;
@@ -472,7 +471,7 @@ header{
 	height: 40px;
 	width: 40px;
 	position: absolute;
-	border: 2px solid #ffc222;
+	border: 2px solid #6666ff;
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
@@ -526,7 +525,7 @@ header{
 	height: 30px;
 	text-align: center;
 	line-height: 30px;
-	background-color: #ffc222;
+	background-color: #6666ff;
 
 }
 .news__blog{
@@ -538,7 +537,7 @@ header{
 }
 .news__date{
 	position: absolute;
-	background-color: #ffc222;
+	background-color: #6666ff;
 	height: 55px;
 	width: 50px;
 	color: #fff;
@@ -571,17 +570,17 @@ header{
 	margin-bottom: 15px;
 }
 .news__slider-text{
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .news__slider-author{
 	letter-spacing: 0.1px;
-	color: #212020;
+	color: #6666ff;
 	font-weight: 500;
 	font-family: 'Roboto', sans-serif;
 }
 .news__slider-inner .slick-btn{
 	top: auto;
-	bottom: -200px;
+	bottom: -100px;
 }
 .news__slider-inner .slick-next{
 	right: -35px;
@@ -654,7 +653,7 @@ header{
 	content: '\f003';
 	position: absolute;
 	left: 0;
-	color: #ffc222;
+	color: #6666ff;
 	font-family: 'icomoon';
 }
 .footer__list .footer__phone:before{
@@ -680,7 +679,3 @@ header{
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
 } 
-.new__i{
-	background-image: url(../images/fone3.jpg);
-
-}
