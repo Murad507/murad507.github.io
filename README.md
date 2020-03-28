@@ -2,5 +2,7 @@
 
  https://murad507.github.io/
  
- !screenshot[images/screenshot.png]
+
  
+ 
+![Screenshot](/images/screeshot.png)
